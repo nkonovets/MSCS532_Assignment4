@@ -1,0 +1,28 @@
+algorithm,file,n,time_ms,peak_memory_kb
+Heap Sort,data/random_small.txt,1000,1.33,15.6
+Heap Sort,data/random_mid.txt,10000,18.98,156.2
+Heap Sort,data/random_large.txt,50000,116.26,781.2
+Heap Sort,data/sorted_small.txt,1000,1.42,15.6
+Heap Sort,data/sorted_mid.txt,10000,22.74,156.2
+Heap Sort,data/sorted_large.txt,50000,116.28,781.2
+Heap Sort,data/reverse_small.txt,1000,1.22,15.6
+Heap Sort,data/reverse_mid.txt,10000,18.19,156.2
+Heap Sort,data/reverse_large.txt,50000,99.07,781.2
+Merge Sort,data/random_small.txt,1000,1.72,7.8
+Merge Sort,data/random_mid.txt,10000,12.37,78.1
+Merge Sort,data/random_large.txt,50000,73.25,390.6
+Merge Sort,data/sorted_small.txt,1000,0.89,7.8
+Merge Sort,data/sorted_mid.txt,10000,10.29,78.1
+Merge Sort,data/sorted_large.txt,50000,57.77,390.6
+Merge Sort,data/reverse_small.txt,1000,0.84,7.8
+Merge Sort,data/reverse_mid.txt,10000,10.06,78.1
+Merge Sort,data/reverse_large.txt,50000,54.13,390.6
+Quick Sort Random,data/random_small.txt,1000,0.62,42.8
+Quick Sort Random,data/random_mid.txt,10000,8.54,442.9
+Quick Sort Random,data/random_large.txt,50000,42.61,2333.3
+Quick Sort Random,data/sorted_small.txt,1000,0.57,56.5
+Quick Sort Random,data/sorted_mid.txt,10000,7.11,330.5
+Quick Sort Random,data/sorted_large.txt,50000,38.3,1721.8
+Quick Sort Random,data/reverse_small.txt,1000,0.6,34.5
+Quick Sort Random,data/reverse_mid.txt,10000,7.49,408.7
+Quick Sort Random,data/reverse_large.txt,50000,34.72,2409.3
