@@ -2,8 +2,9 @@ import sys
 
 from file_parser import get_data
 from quick_sort_random import quicksort_random_in_place
-from quick_sort_deterministic import quick_sort_in_place
+from merge_sort import merge_sort
 from recorder import save_results
+from heap_sort import heap_sort_in_place
 
 
 sys.setrecursionlimit(100_000) 
@@ -11,20 +12,24 @@ sys.setrecursionlimit(100_000)
 
 if __name__ == "__main__":
 
-    algorithm_choice = input("Choose which Quick Sort version to use: \n Quick Sort Random (r) \n ------------------ \n Quick Sort Deterministic (d) \n: ")
+    algorithm_choice = input("Choose which Algorithm to use: \n Quick Sort (q) \n ------------------ \n Merge Sort (m) \n ------------------ \n Heap Sort (h) \n: ")
 
     
 
-    if algorithm_choice == "d":
-        name = "Quick Sort Deterministic"
-        sort_algorithm = quick_sort_in_place
+    if algorithm_choice == "m":
+        name = "Merge Sort"
+        sort_algorithm = merge_sort
 
-    elif algorithm_choice == "r":
+    elif algorithm_choice == "q":
         name = "Quick Sort Random"
         sort_algorithm = quicksort_random_in_place
 
+    elif algorithm_choice == "h":
+        name = "Heap Sort"
+        sort_algorithm = heap_sort_in_place
+
     else:
-        print("Wrong input, please restart the program and choose option \"r\" or \"d\" ")
+        print("Wrong input, please restart the program and choose option \"q\" , \"m\" or \"h\" ")
         exit()
 
 
