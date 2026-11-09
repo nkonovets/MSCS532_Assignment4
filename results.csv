@@ -17,12 +17,12 @@ Merge Sort,data/sorted_large.txt,50000,57.77,390.6
 Merge Sort,data/reverse_small.txt,1000,0.84,7.8
 Merge Sort,data/reverse_mid.txt,10000,10.06,78.1
 Merge Sort,data/reverse_large.txt,50000,54.13,390.6
-Quick Sort Random,data/random_small.txt,1000,0.62,42.8
-Quick Sort Random,data/random_mid.txt,10000,8.54,442.9
-Quick Sort Random,data/random_large.txt,50000,42.61,2333.3
-Quick Sort Random,data/sorted_small.txt,1000,0.57,56.5
-Quick Sort Random,data/sorted_mid.txt,10000,7.11,330.5
-Quick Sort Random,data/sorted_large.txt,50000,38.3,1721.8
-Quick Sort Random,data/reverse_small.txt,1000,0.6,34.5
-Quick Sort Random,data/reverse_mid.txt,10000,7.49,408.7
-Quick Sort Random,data/reverse_large.txt,50000,34.72,2409.3
+Quick Sort Random,data/random_small.txt,1000,0.71,42.9
+Quick Sort Random,data/random_mid.txt,10000,9.68,392.4
+Quick Sort Random,data/random_large.txt,50000,51.25,2147.7
+Quick Sort Random,data/sorted_small.txt,1000,0.74,37.1
+Quick Sort Random,data/sorted_mid.txt,10000,8.13,576.0
+Quick Sort Random,data/sorted_large.txt,50000,53.11,1752.6
+Quick Sort Random,data/reverse_small.txt,1000,0.8,52.1
+Quick Sort Random,data/reverse_mid.txt,10000,8.03,409.1
+Quick Sort Random,data/reverse_large.txt,50000,61.19,2244.8
